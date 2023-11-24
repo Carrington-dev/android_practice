@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="30dp"
+    >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="username" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+ <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phone"
+        android:layout_below="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconDrawable="@drawable/ic_launcher_foreground"
+     >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="phone" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+ <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email"
+        android:layout_below="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:text="SAVE NOW"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/emailOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi there"
+            android:textSize="13pt"
+            />
+
+        <TextView
+            android:id="@+id/usernameOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi there"
+            android:textSize="13pt"
+            />
+
+        <TextView
+            android:id="@+id/phoneOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi there"
+            android:textSize="13pt"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:text="Sign Up"
+        />
+
+    <Button
+        android:id="@+id/loginButtton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signUpButton"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:text="Sign In"
+        />
+
+
+</RelativeLayout>

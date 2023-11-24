@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".welcome.VehicleDetailActivity">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primary">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/appBar"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:fillColor="@color/primary"
+                app:menu="@menu/top_menu"
+                app:navigationIcon="@drawable/ic_arrow_back"
+                app:title="Vroomhive"
+                app:titleTextColor="#fff" />
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                >
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="360dp"
+                    android:layout_centerInParent="true"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorEnabled="true"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="1" />
+            </LinearLayout>
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+
+                <TextView
+                    android:id="@+id/title_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textAppearance="?attr/textAppearanceListItem"/>
+
+                <TextView
+                    android:id="@+id/price_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Full service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                    \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                    \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                    \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                    \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                    \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                    \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                    \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                    \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                    \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                    \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                \n\nFull service history with books and spare key, The best sedan out on the market, Extras include: Electric windows and mirrors, Bluetooth, multi media Touch screen radio with CD/AUX/USB and Bluetooth, Tow bar, PDC rear, Cruise Control, Leather seats, Fog lights. FINANCE AVAILABLE FROM LEADING BANKS. . TRADE INS WELCOME!
+                "
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="10sp"
+                    android:textAppearance="?attr/textAppearanceListItem"/>
+
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

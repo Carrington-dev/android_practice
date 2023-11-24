@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:title="Welcome">
+            <menu>
+                <item
+                    android:id="@+id/search_badge"
+                    android:title="Home"
+                    android:contentDescription="Home"
+                    android:icon="@drawable/ic_car_home"
+                     />
+
+                <item
+                    android:id="@+id/add_to_fav"
+                    android:title="News"
+                    android:contentDescription="News"
+                    android:icon="@drawable/ic_news"
+                    />
+
+                <item
+                    android:id="@+id/settings"
+                    android:title="About"
+                    android:contentDescription="About"
+                    android:icon="@drawable/ic_sq"
+                    />
+
+            </menu>
+        </item>
+
+    </group>
+    <group >
+        <item
+            android:title="Cars">
+            <menu>
+                <item
+                    android:id="@+id/search_badge2"
+                    android:title="All Cars"
+                    android:contentDescription="All Cars"
+                    android:icon="@drawable/ic_baseline_car"
+                    />
+
+                <item
+                    android:id="@+id/add_to_fav2"
+                    android:title="Old Cars"
+                    android:contentDescription="Old Cars"
+                    android:icon="@drawable/ic_car_new"
+
+                    />
+
+                <item
+                    android:id="@+id/settings2"
+                    android:title="New Cars"
+                    android:contentDescription="New Cars"
+                    android:icon="@drawable/ic_sedan_car"
+
+                    />
+
+            </menu>
+        </item>
+
+    </group>
+    <item
+        android:title="More">
+        <menu>
+            <item
+                android:id="@+id/add_to_fav22"
+                android:title="Likes"
+                android:contentDescription="Likes"
+                android:icon="@drawable/ic_baseline_favorite_24"
+                />
+
+            <item
+                android:id="@+id/settings22"
+                android:title="Settings"
+                android:contentDescription="Settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                />
+
+            <item
+                android:id="@+id/follow22"
+                android:title="Follow"
+                android:contentDescription="Follow"
+                android:icon="@drawable/ic_baseline_search_24"
+                />
+
+        </menu>
+
+    </item>
+</menu>
